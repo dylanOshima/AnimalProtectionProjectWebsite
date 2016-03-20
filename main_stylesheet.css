@@ -54,7 +54,7 @@ header {
     margin: 0px;
     float: left;
     width: 50%;
-    height: 25%;
+    height: auto;
 }
 
 #count {
@@ -80,14 +80,14 @@ header {
         background-size:cover;
         background-position:center;
 */
-    height: 100%;
+    height: auto;
     width: 100%;
     border-bottom: 4px solid aqua;
     margin: 0px 0px; /* In order to make the pic reach the edges*/
 }
 
 .treatment, .statistics {
-    height: 35%;
+    height: auto;
     width: 55%;
     margin: 0px auto;
 }
@@ -131,7 +131,7 @@ header {
 
 .app_content {
     width: 75%;
-    height: 100%;
+    height: auto;
     margin: 0px auto;
 }
 
