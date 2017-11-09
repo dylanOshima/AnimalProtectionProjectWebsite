@@ -6,7 +6,7 @@ html, body {
     min-height: 1000px;
 }
 
-body {    
+body {
     font-family: 'Raleway', sans-serif;
         font-weight: 300;
     margin: 0px 0px; /* In order to make the pic reach the edges*/
@@ -26,7 +26,7 @@ h1 {
 
 header {
     height: 600px;
-    background-image:url(Images/LandingPagePic.png); 
+    background-image:url(Images/LandingPagePic.png);
         background-size:cover;
         background-position:center;
     border-bottom: 4px solid black;
@@ -38,7 +38,7 @@ header {
 }
 
 #time {
-    font-size: 200px; 
+    font-size: 200px;
         color:#AD323A;
         font-weight: 400;
 }
@@ -67,7 +67,7 @@ header {
 
 .count_txt {
     vertical-align: baseline;
-    margin-top: 80px; 
+    margin-top: 80px;
     color: white;
         font-size: 30px;
         font-weight: 300;
@@ -76,7 +76,7 @@ header {
 
 .about {
 /*
-    background-image:url(Images/background-about.png); 
+    background-image:url(Images/background-about.png);
         background-size:cover;
         background-position:center;
 */
@@ -84,6 +84,8 @@ header {
     width: 100%;
     border-bottom: 4px solid aqua;
     margin: 0px 0px; /* In order to make the pic reach the edges*/
+    text-align: center;
+    align-content: center;
 }
 
 .treatment, .statistics {
@@ -102,14 +104,16 @@ header {
 
 .statistics {
     clear: left;
+    width: 45em;
+
 }
 
 .statistics_body, .statistics_graph {
-    float: left;
+    float:inherit;
+    text-align: center;
 }
 
 .statistics_body {
-    width: 100%;
 }
 
 .statistics_graph {
@@ -124,7 +128,7 @@ header {
     margin: 0px 0px; /* In order to make the pic reach the edges*/
     height: 100vh;
     width: 100%;
-    background-image:url(Images/About_APP.png); 
+    background-image:url(Images/About_APP.png);
         background-size:cover;
         background-position:center;
 }
